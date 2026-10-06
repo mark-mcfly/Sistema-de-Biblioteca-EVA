@@ -1,9 +1,8 @@
-# Sistema de Biblioteca
+# Sistema de Biblioteca EVA
 
 Trabalho de Prog II — Miguel Angelo Martins Sousa.
 
-
-## O que falta implementa
+## Funcionalidades Implementadas
 
 - `cadastrarLivro` — cadastrar livro no acervo;
 - `listarLivros` — listar todos os livros cadastrados;
@@ -13,6 +12,7 @@ Trabalho de Prog II — Miguel Angelo Martins Sousa.
 
 ## Como compilar
 
-```
-g++ src/main.cpp src/Biblioteca.cpp -o biblioteca
-```
+Para compilar o arquivo único do projeto, utilize o comando abaixo no terminal:
+
+```bash
+g++ Eva_Biblioteca.cpp -o biblioteca
